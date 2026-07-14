@@ -57,8 +57,8 @@ To become a skilled **AI/ML Engineer** and **Full Stack Developer**, contributin
 
 ## 📫 Contact
 
-* GitHub: https://github.com/rishwanththota96-oss
-* LinkedIn: [(Add your LinkedIn link here)](https://www.linkedin.com/in/rishwanththota/)
+* GitHub:https://rishwanththota.github.io/Portfolio/
+* LinkedIn: https://www.linkedin.com/in/rishwanththota/
 
 ---
 
