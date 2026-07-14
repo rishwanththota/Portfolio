@@ -1,0 +1,268 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thota- Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <!-- FontAwesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+
+<body>
+    <!-- Parallax Background Element -->
+    <div class="parallax-bg main-bg"></div>
+
+    <!-- Navbar -->
+    <header class="navbar">
+        <div class="logo">Thota Rishwanth</div>
+        <nav>
+            <ul class="nav-links">
+                <li><a href="#hero" class="active">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#certifications">Certifications</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <button class="menu-toggle" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+        </button>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="hero" class="hero section">
+            <div class="hero-content" data-speed="1.1">
+                <p class="greeting">Hi,</p>
+                <p class="greeting">I'm <span class="name">Thota Rishwanth</span></p>
+                <h2 class="role">Aspiring Software Engineer</h2>
+                <div class="cta-buttons">
+                    <a href="#contact" class="btn primary-btn">Contact</a>
+                    <div class="social-icons-hero">
+                        <a href="https://www.linkedin.com/in/rishwanththota/" target="_blank"
+                            aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                        <a href="https://github.com/rishwanththota" target="_blank" aria-label="GitHub"><i
+                                class="fab fa-github"></i></a>
+                        <a href="https://leetcode.com/u/r57gk8Wg4x/" target="_blank" aria-label="LeetCode"
+                            style="display: inline-flex; align-items: center; padding-top: 2px;">
+                            <span
+                                style="display: inline-block; width: 0.9em; height: 0.9em; background-color: currentColor; -webkit-mask: url('https://api.iconify.design/simple-icons:leetcode.svg') no-repeat center; mask: url('https://api.iconify.design/simple-icons:leetcode.svg') no-repeat center; -webkit-mask-size: contain; mask-size: contain;"></span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hero-image" data-speed="0.8">
+                <img src="Profile.jpg" alt="Thota Rishwanth" class="profile-blob"
+                    style="object-fit: cover;">
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <h2 class="section-title">About</h2>
+            <div class="about-container">
+                <div class="about-text">
+                    <p>I am Thota Rishwanth, a B.Tech student specializing in Artificial Intelligence and Machine Learning,
+                         with a strong passion for technology and problem-solving. I enjoy building practical applications that combine 
+                         software development with intelligent systems to create real-world impact.Currently, I am focused on strengthening
+                          my skills in Java, Data Structures & Algorithms, and full-stack web development. I have experience working with
+                           technologies like Python, HTML, CSS, MySQL, and frameworks such as Flask. I actively work on projects like NutriGuide,
+                            AIOA, and other innovative solutions that aim to solve everyday problems using technology.I am particularly interested
+                             in becoming an AI Engineer and Full Stack Developer, and I am continuously learning and improving through hands-on projects, 
+                             coding practice, and exploring modern tools and frameworks.</p>
+                    <p>I am a self-motivated learner who believes in consistency, growth, and building meaningful solutions. My goal is to secure
+                         a high-impact role in the tech industry and contribute to developing intelligent and scalable applications.Apart from coding,
+                          I enjoy playing cricket and going to the gym, which helps me stay disciplined and focused in both personal and professional life.</p>
+                </div>
+                <br>
+                </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section id="skills" class="section">
+            <h2 class="section-title">Skills</h2>
+            <div class="skills-cloud">
+                <span class="skill-pill"><i class="fab fa-python"></i> Python</span>
+                <span class="skill-pill"><i class="fas fa-code"></i> C++</span>
+                <span class="skill-pill"><i class="fas fa-java"></i> Java</span>
+                <span class="skill-pill"><i class="fab fa-js"></i> JavaScript</span>
+                <span class="skill-pill"><i class="fab fa-html5"></i> HTML/CSS</span>
+                <span class="skill-pill"><i class="fas fa-database"></i> MySQL</span>
+                <span class="skill-pill"><i class="fas fa-sitemap"></i> DSA</span>
+
+
+                 </div>
+        </section>
+
+       <!-- Projects Section -->
+<section id="projects" class="section">
+    <h2 class="section-title">Projects</h2>
+    <div class="projects-list">
+
+        <!-- Project 1 -->
+        <div class="project-row">
+            <div class="project-visual"><i class="fas fa-utensils"></i></div>
+            <div class="project-info">
+                <h3>NutriGuide - Nutrition Web App</h3>
+                <p>
+                    Developed a full-stack nutrition web application that helps users calculate daily calorie intake,
+                    generate meal plans, and track nutrition. Implemented user authentication, dashboard features,
+                    and a responsive UI for better user experience.
+                </p>
+                <div class="tech-stack">
+                    <span>Python</span>
+                    <span>Flask</span>
+                    <span>MySQL</span>
+                    <span>HTML</span>
+                    <span>CSS</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rishwanththota/Nutriguide" target="_blank">
+                        <i class="fab fa-github"></i> View Source Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Project 2 -->
+<div class="project-row">
+    <div class="project-visual"><i class="fas fa-gamepad"></i></div>
+    <div class="project-info">
+        <h3>Tic Tac Toe Game</h3>
+        <p>
+            Developed an interactive Tic Tac Toe game with a clean and responsive UI.
+            Features include two-player gameplay, win/draw detection logic, and smooth user interactions.
+            Built to demonstrate core JavaScript logic and DOM manipulation skills.
+        </p>
+        <div class="tech-stack">
+            <span>HTML</span>
+            <span>CSS</span>
+            <span>JavaScript</span>
+        </div>
+        <div class="project-links">
+            <a href="https://github.com/rishwanththota/Tic-Tac-Toe" target="_blank">
+                <i class="fab fa-github"></i> View Source Code
+            </a>
+        </div>
+    </div>
+</div>
+
+        <!-- Project 3 -->
+        <div class="project-row reverse">
+            <div class="project-visual"><i class="fas fa-calculator"></i></div>
+            <div class="project-info">
+                <h3>Mini Calculator</h3>
+                <p>
+                    Created a simple and responsive calculator application to perform basic arithmetic operations.
+                    Focused on clean UI design and efficient JavaScript functionality.
+                </p>
+                <div class="tech-stack">
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+                </div>
+                <div class="project-links">
+                    <a href="https://github.com/rishwanththota/Mini_Calculator" target="_blank">
+                        <i class="fab fa-github"></i> View Source Code
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+        <!-- Certifications Section -->
+        <section id="certifications" class="section">
+            <h2 class="section-title">Certifications</h2>
+            <div class="certificates-grid">
+                <a href="https://www.credly.com/badges/997f4aa2-5791-4a8f-a9a4-6ab6c388af7d/public_url"
+                    target="_blank" class="certificate-card">
+                    <i class="fab fa-aws"></i>
+                    <h3>Google certified</h3>
+                    <p>Cloud Computing Foundations</p>
+                </a>
+                <a href="https://www.credly.com/badges/ad9ece65-226d-4aae-8fdf-1a65665b0d86/public_url"
+                    target="_blank" class="certificate-card">
+                    <i class="fas fa-microchip"></i>
+                    <h3>IBM</h3>
+                    <p>Artificial Intelligence Fundamentals</p>
+                </a>
+               </a>
+            </div>
+        </section>
+
+        <!-- Education Section -->
+        <section id="education" class="section">
+            <h2 class="section-title">Education</h2>
+            <div class="centered-timeline">
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h4>B.Tech in Computer Science</h4>
+                        <p class="institution">MallaReddy University, Hyderabad</p>
+                        <p class="date">May 2029 (Expected)</p>
+                        <p class="timeline-desc">CGPA: 8.98/10.0</p>
+                    </div>
+                </div>
+                <div class="timeline-item right">
+                    <div class="timeline-content">
+                        <h4>Class XII</h4>
+                        <p class="institution">Sri Chaitanya Junior College, Hyderabad</p>
+                        <p class="date">March 2025</p>
+                        <p class="timeline-desc">Percentage: 89.5%</p>
+                    </div>
+                </div>
+                <div class="timeline-item left">
+                    <div class="timeline-content">
+                        <h4>Class X</h4>
+                        <p class="institution">Vasavi High School, Nirmal</p>
+                        <p class="date">May 2023</p>
+                        <p class="timeline-desc">Percentage: 93%</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <h2 class="section-title">Contact</h2>
+            <div class="contact-container">
+                <div class="contact-info">
+                    <p><i class="fas fa-envelope"></i> rishwanththota96@gmail.com</p>
+                    <p><i class="fas fa-phone"></i> +91-9948410059</p>
+                </div>
+                <div class="social-links">
+                    <a href="https://www.linkedin.com/in/rishwanththota/" target="_blank"
+                        aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    <a href="https://github.com/rishwanththota" target="_blank" aria-label="GitHub"><i
+                            class="fab fa-github"></i></a>
+                    <a href="https://leetcode.com/u/r57gk8Wg4x/" target="_blank" aria-label="LeetCode"
+                        style="display: inline-flex; align-items: center; padding-top: 2px;">
+                        <span
+                            style="display: inline-block; width: 0.9em; height: 0.9em; background-color: currentColor; -webkit-mask: url('https://api.iconify.design/simple-icons:leetcode.svg') no-repeat center; mask: url('https://api.iconify.design/simple-icons:leetcode.svg') no-repeat center; -webkit-mask-size: contain; mask-size: contain;"></span>
+                    </a>
+                </div>
+                <br>
+                <a href="https://mail.google.com/mail/?view=cm&fs=1&to=rishwanththota96@gmail.com&su=Contact%20from%20Portfolio"
+                    target="_blank" class="btn primary-btn" style="width:200px">Send Email</a>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2026 Thota Rishwanth. All rights reserved.</p>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="https://unpkg.com/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollTrigger.min.js"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
